@@ -1,0 +1,6 @@
+%let url=http://api.bls.gov/publicAPI/v2/timeseries/data/;
+filename in  "H:\Twitter_James\SeriesIn.txt";
+filename out "H:\Twitter_James\SeriesDataOut.txt" recfm=v lrecl=32000;
+
+proc http in=in out=out url="&url" method="post" ct="application/json";
+run;
