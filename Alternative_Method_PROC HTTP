@@ -1,5 +1,5 @@
-%let API_KEY=<YOUR API KEY>;
-%let API_SECRET=<YOUR API SECRET>;
+%let API_KEY=g92JqH4AP7LS5ktEGICgSB1qO;
+%let API_SECRET=K84jxM9ZmJPzwrNQ9lad2WM8MoAJQCSblhrft9a45o6HZwkBSd;
 
 filename head temp;
 filename body temp;
